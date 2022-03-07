@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimal-scale=1.0,
+                                        user-scalable=yes">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,600&family=Satisfy&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+        <title>Extras | Candy </title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container container--flex">
+                <div class="container__logo column column--50">
+                    <h1 class="logo">Doux Complicité</h1>
+                </div>
+                <div class="header__contactInfo column column--50">
+                    <p class="header__contactInfo--phone">
+                        <span class="icon-telephone">999-999-99-99</span>
+                    </p>
+                    <p class="header__contactInfo--address">
+                        <span class="icon-location">Guadalajara-Jalisco,México S/N</span>
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="container container--flex">
+                <span class="icon-burger" id="menu__btn"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link menu__link--select">Extras</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Galería</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+                </ul>
+                <div class="social">
+                    <a href="#" class="social__link"><span class="icon-facebook"></span></a>
+                    <a href="#" class="social__link"><span class="icon-twitter"></span></a>
+                    <a href="#" class="social__link"><span class="icon-mail"></span></a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="banner">
+            <img src="../assets/img/baker.jpg" alt="Pastel rosa" class="banner__img">
+            <div class="banner__content">Agrega felicidad a tus momentos!</div>
+        </section>
+
+        <main class="main">
+            <section class="group extras">
+                <h2 class="group__title">Añade felicidad!</h2>
+                <div class="container container--flex">
+                    <div class="column column--33">
+                        <h3 class="extras__title">Sprinkles $40</h3>
+                        <img src="../assets/img/sprinkles.jpg" alt="Sprinkles" class="extras__img">
+                        <input class="" type="checkbox" id="chocolate" name="chocolate" value="Chocolate">
+                        <label for="chocolate">Chocolate</label>
+                        <br>
+                        <input type="checkbox" id="chispitas" name="chispitas" value="chispitas">
+                        <label for="chispitas">Chispitas</label>
+                        <br>
+                        <input type="checkbox" id="kisses" name="kisses" value="kisses">
+                        <label for="kisses">Kisses</label>
+                    </div>
+                    <div class="column column--33">
+                        <h3 class="extras__title">Frutillas $50</h3>
+                        <img src="../assets/img/fruits.jpg" alt="Frutillas" class="extras__img">
+                        <input  type="checkbox" id="kiwi" name="kiwi" value="kiwi">
+                        <label for="kiwi">Kiwi</label>
+                        <br>
+                        <input type="checkbox" id="fresas" name="fresas" value="fresas">
+                        <label  for="fresa">Fresas</label>
+                        <br>
+                        <input type="checkbox" id="cerezas" name="cerezas" value="cerezas">
+                        <label  for="cerezas">Cerezas</label>
+                    </div>
+                    <div class="column column--33">
+                        <h3 class="extras__title">Velas $30</h3>
+                        <img src="../assets/img/candles.jpg" alt="Velas" class="extras__img">
+                        <input type="radio" id="si" name="seleccion" value="si">
+                        <label  for="si">Sí</label>
+                        <br>
+                        <input type="radio" id="no" name="seleccion" value="no">
+                        <label  for="no">No</label>
+                        <br>
+                        <label for="edad">Edad: </label>
+                        <input type="number" placeholder="Ingresar numeros" name="edad" id="edad" minimal="0" max="999">
+                    </div>
+                </div>
+
+                <form action="" class="form__orders container">
+                    <h1 class="form__title">Datos de entrega:</h1>
+                    <div class="container---flex">
+                        <label for="" class="form__label">Nombre Completo: </label>
+                        <input type="text" class="form__input" name="nombre">
+                    </div>
+                    <div class="container---flex">
+                        <label for="" class="form__label">Direccion: </label>
+                        <input type="text" class="form__input" name="direccion">
+                    </div>
+                    <div class="container---flex">
+                        <label for="" class="form__label">Teléfono: </label>
+                        <input type="number" class="form__input" name="telefono">
+                    </div>
+                    <div class="container---flex">
+                        <label for="" class="form__label">Fecha de entrega</label>
+                        <input type="date" class="form__input" name="fecha">
+                    </div>
+                    <div class="container---flex">
+                        <label for="" class="form__label">Comentarios: </label>
+                        <br>
+                        <textarea name="comentarios" id="" cols="50px" rows="10"  ></textarea>
+                    </div>
+                    <input type="submit" class="form__submit">
+                </form>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="container container--flex">
+                <div class="column column--33">
+                    <h2 class="column__title">¿Por qué elegirnos?</h2>
+                    <p class="column__txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, labore qui nesciunt vero eos ipsum quas culpa assumenda doloribus perspiciatis soluta saepe molestiae, est velit adipisci ducimus enim nobis maxime?</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Contactanos!</h2>
+                    <p class="column__txt">Guadalajara-Jalisco,México S/N</p>
+                    <p class="column__txt">Telefono:999-999-99-99</p>
+                    <p class="column__txt">informacion@candy.com</p>
+                    <p class="column__txt">Horario: 9:00am - 5:00pm</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Siguenos en nuestras redes</h2>
+                    <p class="column__txt"><a href="#" class="icon-facebook">Facebook</a></p>
+                    <p class="column__txt"><a href="#" class="icon-twitter">Siguenos en Twitter</a></p>
+                </div>
+            </div>
+            <p class="copy">©2022 >Doux Complicité</p>
+        </footer>
+        <script src="./js/menu.js"></script>
+    </body>
+</html>
