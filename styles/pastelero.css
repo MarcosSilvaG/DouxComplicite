@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+th,td{
+    border: solid 1px black;
+    padding: 20px;
+}
+thead{
+    background-color: #E27396;
+    border-bottom: solid 5px black;
+}
+tr:nth-child(even){
+    background: rgba(226, 115, 150,.85);
+    color: white;
+}
+tr:hover td{
+    background: #EFCFE3;
+}
+.pedidos{
+    width: 100%;
+    background-color: aqua;
+}
+
+.main--container{
+    margin: 100px auto;
+    width: 600px;
+    padding: 10px;
+}
+.pedidos__title{
+    text-align: center;
+}
